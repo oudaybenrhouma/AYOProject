@@ -1,0 +1,62 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+.navbar-nav {
+    margin-right: 20px; 
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px; 
+}
+
+.navbar-nav .btn {
+    margin-left: 10px; 
+}
+.subject-card:hover{
+    transition: all ease .5s;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.subject-card-math {
+    position: relative;
+    overflow: hidden;
+}
+
+.subject-card-math::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-color: #007bff; /* Change this to your desired color */
+}
+.subject-card-science::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background-color: #007bff; /* Change this to your desired color */
+}
+.subject-card-physics::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background-color: #007bff; /* Change this to your desired color */
+}
+
+.card-body {
+    position: relative;
+    z-index: 1;
+}
